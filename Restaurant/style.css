@@ -1,0 +1,44 @@
+body{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden; 
+        z-index: 2;
+        position: relative; 
+}
+.two{
+    padding-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.one{  
+    margin-top: 5px;
+    height: 25px;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+}
+.two{
+    padding-left: 50px;
+}
+.image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+} 
+
+
+

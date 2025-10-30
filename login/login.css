@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007ff7;
+}
+.container{
+    background-color: #fff;
+    height: 300px;
+    margin: 100px;
+    padding: 30px;
+    transition: .2s;
+    border-radius: 20px;
+    gap: 20px;
+}
+.container:hover{
+    
+    transform: scale(1.05);
+}
+form{
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px;
+}
+.password {
+margin-top: 10px;  
+margin-bottom: 20px;  
+}
+input{
+   padding: 6px;
+   border: none;
+}
+
+button{
+    padding: 8px;
+    border: white;
+    border-radius: 20px;
+    background: #007ff7;
+    color: white;
+    cursor: pointer;
+    transition: .2s;
+}
+#login{
+     font-family: "Chela One", system-ui;
+  font-weight: 100;
+  font-style: normal;
+    text-align: center; 
+}
+button:hover{
+    transform: scale(1.05);
+}
+#signup{
+    text-decoration: none;
+    color: #007ff7;
+    margin-top: 20px;
+    width: 60px; 
+    border-radius: 10px;
+    height: 25px;
+    text-align: center;
+    transition: .2s;
+}
+#signup:hover{
+    background-color: #007ff7;
+    color: #fff;
+}

@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    background-color: rgb(61, 122, 253);
+}
+.leo{
+    background-color: aliceblue;
+    margin: 100px;
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 30px;
+    gap: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+input{
+    border: none;
+    height: 25px;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+button{
+    border: white;
+    height: 25px;
+    width: 200px;
+    background-color:  rgb(61, 122, 253);
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+
+}
+#reg{
+    text-align: center;
+}
+#o{
+    text-decoration: none;
+    color: rgb(38, 103, 223);
+    
+}
