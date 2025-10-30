@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+body{
+    background-color: rgb(217, 216, 216);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-color: white;
+    height: 700px;
+    width: 1140px;
+    display: flex;
+    padding: 30px;
+    
+}
+
+.three{
+    width: 530px;
+    padding-right: 0px;
+}
+.container{
+    justify-content: space-between;
+    gap: 10px;
+    margin-left: 20px;
+      
+}
+
+#img1{
+    height: 270px;
+    width: 350px;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    border-style: solid;
+    padding:5px;
+    
+}
+#b{
+    height: 75px;
+    width: 85px;
+    cursor: pointer;
+    border-style: solid;
+    padding:5px;
+}
+#c{
+    height: 75px;
+    width: 85px;
+    cursor: pointer;
+    border-style: solid;
+    padding:5px;
+    
+}
+#d{
+     height: 75px;
+    width: 85px;
+    cursor: pointer;
+    border-style: solid;
+    padding:5px;
+}
+#e{
+     height: 75px;
+    width: 85px;
+    cursor: pointer;
+    border-style: solid;
+    padding:5px;
+}
+#f{
+    height: 75px;
+    width: 85px;
+    cursor: pointer;
+    border-style: solid;
+    padding:5px;
+}
+#g{
+     height: 75px;
+    width: 85px;
+    cursor: pointer;
+    border-style: solid;
+    padding:5px;
+}
+#h{
+    height: 75px;
+    width: 85px;
+    cursor: pointer;
+    border-style: solid;
+    padding:5px;
+}
+#rev{
+    margin-top: 5px;
+    padding-left: 150px;
+}
+.three{
+    margin-top: 20px;
+    margin-left: 15px;
+    
+}
+.amt{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 25px;
+    align-items: center;
+    padding-left: 0px;
+    margin-top: 0px;
+
+}
+
+#cart{
+    border-radius: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    padding-left: 30px;
+}
+
+#colour{
+  width: 150px;
+  padding:3px;
+  margin-top: 20px;
+}
+#qty{
+    width: 30px;
+    padding: 3px;
+
+}
+.qty-btn{
+    padding: 5px;
+}
+.star{   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#s1{
+    height: 60px;
+    width: 80px;
+}
